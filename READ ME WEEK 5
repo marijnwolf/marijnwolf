@@ -1,0 +1,7 @@
+For the CIFAR, the network consists of 6 con2VD layers, with pooling and batchnormalization layers in between
+Then is its flattend and 2 Dense layers are added,
+the final Dense layer brings it down to the 10 different types of pictures. 
+It is not extremely quick over 20 epochs but this was the only way i could achieve a validation accuracy of around 75%
+
+
+For the gym: I get scores above 200 consistenly, computer keeps losing because he leaves the screen, dont know how to fix
